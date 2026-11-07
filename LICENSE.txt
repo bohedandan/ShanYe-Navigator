@@ -1,0 +1,25 @@
+Copyright (c) 2026 Danjuan Erwang (蛋卷儿王). All rights reserved for the original portions.
+
+ENGLISH TRANSLATION — ShanYe Navigator Personal Use License 1.0
+This translation accompanies the original Chinese license included in the release package and does not replace third-party licenses.
+
+1. Scope
+This license applies only to original ShanYe code, UI organization, documentation and resources in which 蛋卷儿王 holds the relevant rights. It does not apply to the game, game assets or third-party code/components. Third-party material retains its original license and permissions; this license does not reduce rights granted by them. This is an unofficial mod, unaffiliated with the game developer, Steam, Nexus Mods or GitHub.
+
+2. Permitted use
+Players may install and run the software free of charge and keep a reasonable number of personal backups. In-app settings, key bindings, appearance editing, accessory copies and preset import/export are permitted configuration, not modification of the software. Complete, unmodified official packages may be shared privately with friends for play or testing, retaining all credits, this license and third-party notices. Sharing original release links, personal screenshots, videos, experiences and tutorials is permitted.
+
+3. Prior written permission required
+Prior written permission is required to distribute derivatives of the original portions by renaming, rebranding, removing attribution, repackaging or modifying functionality; to publicly redistribute complete packages or original source; to extract original code/assets for other projects; or to sell, bundle commercially, resell licenses or claim original authorship of ShanYe. A privately supplied source backup is not an open-source grant. This is not an open-source license. Unspecified rights remain with their holders, subject to mandatory law and rights already lawfully obtained.
+
+4. Third-party exceptions
+MinHook, ExtraGears, OverTheHillUnlimited, BepInEx, MelonLoader and 葡萄拌大蒜's OVH Render Optimizer are not claimed as ShanYe originals. Their licenses remain effective. Separable third-party portions follow their included licenses; those licenses do not automatically license ShanYe's original portions. Game names, characters, vehicles, textures and game assets visible in screenshots belong to their respective owners.
+
+5. Publishing platforms
+Rights required by platform terms, such as viewing and on-platform forks on GitHub, still apply. Authors restricting derivatives should keep full source private and use public repositories for documentation, feedback and releases. Nexus permissions should match this license. Valid permissions already granted are not automatically revoked by later page changes.
+
+6. No warranty and liability
+The software is provided as is, without a guarantee of compatibility with every game update or third-party mod combination. Keep personal save backups. To the extent permitted by applicable law, the author is not liable for indirect losses from use; liability that cannot lawfully be excluded is not excluded. Verification scope is stated in each release's notes.
+
+7. Permission requests
+Contact the publisher credited as 蛋卷儿王 through the original download page, describing purpose, platform and modifications. This file is not a software copyright registration certificate and does not guarantee that copying, decompilation or removal of attribution is technically impossible.
