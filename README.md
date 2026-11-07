@@ -1,10 +1,12 @@
 # ShanYe Navigator
 
-A community-made utility mod for **Over the Hill**, by **Danjuan Erwang (蛋卷儿王)**.
+A community-made utility mod for **Over the Hill** (also written as **OverTheHill**), by **Danjuan Erwang (蛋卷儿王)**. ShanYe Navigator is known as **山野领航** in Chinese.
 
 ## Download
 
-Download the complete ZIP from this repository's **Releases** page. Choose `ShanYe-Navigator-3.0.7-RC4-BepInEx-x64.zip`, not GitHub's automatic source-code archives.
+**[Download 3.0.7 RC4](https://github.com/bohedandan/ShanYe-Navigator/releases/tag/v3.0.7-rc4)** · **[Report a bug](https://github.com/bohedandan/ShanYe-Navigator/issues)**
+
+Download the complete ZIP from this repository's **[Releases](https://github.com/bohedandan/ShanYe-Navigator/releases)** page. Choose `ShanYe-Navigator-3.0.7-RC4-BepInEx-x64.zip`, not GitHub's automatic source-code archives.
 
 **3.0.7 RC4 is a prerelease.** Single-player loading has been confirmed working by the project owner after the fix. Full 16-player multiplayer acceptance is still pending.
 
