@@ -1,3 +1,20 @@
+RC4 offline-library packaging update - 2026-11-09
+
+The installer validates versioned dependencies from its package metadata: Unity engine version, required archive modules, loader/runtime/plugin presence and hashes, and loader cache/source compatibility. Custom cache/source configurations are reported before any changes, rather than overwritten. The manager no longer treats a matching main DLL as proof that dependencies are healthy.
+
+This complete installer includes the Unity 6000.0.75 base-library archive. Install / Update copies it to BepInEx/unity-libs/6000.0.75.zip and repairs missing or damaged copies. With the normal BepInEx cache/source configuration, the loader uses this file instead of downloading it on first startup.
+
+Exit the game, fully extract this package and run ShanYe-Manager.exe -> Install / Update, even if RC4 is already installed. No separate repair package is needed. Keep the inner Unity ZIP intact. Interface generation still runs and can take time.
+
+Mod/loader binaries, game fingerprint checks, saved settings and multiplayer protocol are unchanged. Custom loader cache/source paths may need separate review. This removes one Unity-library download dependency; Steam/multiplayer and unrelated services still require their usual connectivity.
+
+The libraries come from the known working local BepInEx cache. ZIP integrity and all 73 extracted DLLs were checked. The matching loader's cached-library method passed isolated checks. Startup on the affected player's machine and full 16-player multiplayer acceptance remain pending.
+
+Original endpoint: https://unity.bepinex.dev/libraries/6000.0.75.zip
+Archive SHA256: 53C15D574B129486F71F93825677983787E7242AED98D083D3DB93B87A985655
+Unity/BepInEx materials retain their respective rights and terms. Existing package licenses/notices remain applicable.
+
+
 # ShanYe Navigator 3.0.7 RC4
 
 This update focuses on loading and expanded-session stability.

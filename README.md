@@ -6,9 +6,17 @@ A community-made utility mod for **Over the Hill** (also written as **OverTheHil
 
 **[Download 3.0.7 RC4](https://github.com/bohedandan/ShanYe-Navigator/releases/tag/v3.0.7-rc4)** · **[Report a bug](https://github.com/bohedandan/ShanYe-Navigator/issues)**
 
-Download the complete ZIP from this repository's **[Releases](https://github.com/bohedandan/ShanYe-Navigator/releases)** page. Choose `ShanYe-Navigator-3.0.7-RC4-BepInEx-x64.zip`, not GitHub's automatic source-code archives.
+Download the complete ZIP from this repository's **[Releases](https://github.com/bohedandan/ShanYe-Navigator/releases)** page. Choose `ShanYe-Navigator-3.0.7-RC4-Offline-BepInEx-x64.zip`, not GitHub's automatic source-code archives.
 
 **3.0.7 RC4 is a prerelease.** Single-player loading has been confirmed working by the project owner after the fix. Full 16-player multiplayer acceptance is still pending.
+
+## Offline-ready installer update (November 9, 2026)
+
+The recommended complete ZIP now includes the matching Unity base-library cache. This addresses first-start failures while downloading Unity libraries, followed by UnityEngine.CoreModule not found.
+
+Run **Install / Update again**, even if RC4 is already installed. The installer checks the package's declared Unity version, required offline modules, loader/runtime/plugin requirements and package hashes, and repairs missing or damaged distributed files. Previously saved loader configuration is retained. Custom cache/source settings that bypass the bundled archive are reported before installation rather than silently overwritten.
+
+No separate Unity repair archive is needed. Do not unpack the inner Unity ZIP. Normal first-start interop generation still takes time. This is not an offline multiplayer mode, and startup on the affected player's machine is still awaiting confirmation.
 
 ## Requirements
 
