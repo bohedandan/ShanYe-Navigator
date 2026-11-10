@@ -4,11 +4,21 @@ A community-made utility mod for **Over the Hill** (also written as **OverTheHil
 
 ## Download
 
-**[Download 3.0.7 RC4](https://github.com/bohedandan/ShanYe-Navigator/releases/tag/v3.0.7-rc4)** · **[Report a bug](https://github.com/bohedandan/ShanYe-Navigator/issues)**
+**[Download 3.0.7 RC4 with in-menu help](https://github.com/bohedandan/ShanYe-Navigator/releases/tag/v3.0.7-rc4)** · **[Report a bug](https://github.com/bohedandan/ShanYe-Navigator/issues)**
 
-Download the complete ZIP from this repository's **[Releases](https://github.com/bohedandan/ShanYe-Navigator/releases)** page. Choose `ShanYe-Navigator-3.0.7-RC4-Offline-BepInEx-x64.zip`, not GitHub's automatic source-code archives.
+Download the complete ZIP from this repository's **[Releases](https://github.com/bohedandan/ShanYe-Navigator/releases)** page. Choose `ShanYe-Navigator-3.0.7-RC4-Help1-Offline-BepInEx-x64.zip`, not GitHub's automatic source-code archives.
 
 **3.0.7 RC4 is a prerelease.** Single-player loading has been confirmed working by the project owner after the fix. Full 16-player multiplayer acceptance is still pending.
+
+## In-menu help update (November 10, 2026)
+
+Every feature page now has **How to use** at the top. Read instructions for the current page or search all help in English or Chinese. Select a tuning item before opening help to focus its instructions. Use **Back to controls** or **Esc** to return to the previous page position.
+
+The guide includes **60 topic summaries and 142 tuning-catalogue entries**. It explains steps, parking requirements, host/client permissions and saved-progress effects. Unavailable entries are marked; this is not a claim of 202 verified features. The complete English guide is also included as `FEATURE-GUIDE.txt` in the ZIP and as a release attachment.
+
+Existing RC4 users need to run **Install / Update** to receive this help update. The offline cache remains included. Gameplay logic, the multiplayer protocol, settings format, dependencies and installer are unchanged.
+
+This candidate is revision **20261110-rc4-help1**. Build, reference, isolated help/layout and installation checks passed. It was installed on the project owner's machine with settings and save-file hashes preserved. **Actual in-game help rendering/input remains unverified.** Full 16-player acceptance is still pending.
 
 ## Offline-ready installer update (November 9, 2026)
 
@@ -38,6 +48,7 @@ The manager and in-game menu include English. Select **English / 中文** at the
 
 ## Main tools
 
+- Searchable in-menu instructions for each feature page, in English and Chinese.
 - Minimap, player markers, driving instruments, FPS and latency display.
 - Portable mechanic, saved-vehicle switching, owned accessories and installed community liveries.
 - Accessory stacking, layout editing, copies and saved presets.

@@ -1,3 +1,24 @@
+# In-menu help candidate - November 10, 2026
+
+ShanYe Navigator 3.0.7 RC4 - In-menu help update
+November 10, 2026 | Candidate revision: 20261110-rc4-help1
+
+Added How to use on all 11 feature pages. Read the current page or search all help entries in English or Chinese. Selecting a tuning item first focuses its instructions. Use Back to controls or Esc to return without changing the previous page's scroll position.
+
+The guide contains 60 topic summaries and 142 tuning-catalogue entries. It explains the steps, parking requirements, host/client permissions and saved-progress effects. Unavailable entries are explicitly marked. These are 202 help entries, not 202 independently validated features.
+
+Existing RC4 users must run Install / Update to receive the help update. The offline Unity cache and installer remain included and unchanged. This update does not change gameplay, multiplayer protocol, configuration format or dependencies.
+
+Validation: builds and 791 game/Unity references passed, alongside isolated help checks, menu geometry, archive integrity and synthetic install/update/uninstall checks. Installed on the project owner's machine with existing settings and save-file hashes preserved. Actual in-game help rendering/input and full 16-player acceptance remain pending.
+
+Known limitation: tuning-preset import currently lacks a file-path input; the guide identifies this rather than claiming it works. Existing save/load/export actions are separate.
+
+BepInEx x64; game build 26.10.30_426818b / Steam build 26326013.
+Voice, text chat and whole-vehicle scaling remain removed; accessory scaling is retained.
+
+
+---
+
 RC4 offline-library packaging update - 2026-11-09
 
 The installer validates versioned dependencies from its package metadata: Unity engine version, required archive modules, loader/runtime/plugin presence and hashes, and loader cache/source compatibility. Custom cache/source configurations are reported before any changes, rather than overwritten. The manager no longer treats a matching main DLL as proof that dependencies are healthy.
