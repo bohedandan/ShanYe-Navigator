@@ -4,33 +4,31 @@ A community-made utility mod for **Over the Hill** (also written as **OverTheHil
 
 ## Download
 
-**[Download 3.0.7 RC4 with in-menu help](https://github.com/bohedandan/ShanYe-Navigator/releases/tag/v3.0.7-rc4)** · **[Report a bug](https://github.com/bohedandan/ShanYe-Navigator/issues)**
+**[Download 3.0.8 RC2](https://github.com/bohedandan/ShanYe-Navigator/releases/tag/v3.0.8-rc2)** · **[Report a bug](https://github.com/bohedandan/ShanYe-Navigator/issues)**
 
-Download the complete ZIP from this repository's **[Releases](https://github.com/bohedandan/ShanYe-Navigator/releases)** page. Choose `ShanYe-Navigator-3.0.7-RC4-Help1-Offline-BepInEx-x64.zip`, not GitHub's automatic source-code archives.
+Choose `ShanYe-Navigator-3.0.8-RC2-Offline-BepInEx-x64.zip` from **Releases**, not GitHub's automatic source-code archives. This is a prerelease for game **26.11.06_db90b37 / Steam 26489201**. Use the older RC4 package only with its supported older game build.
 
-**3.0.7 RC4 is a prerelease.** Single-player loading has been confirmed working by the project owner after the fix. Full 16-player multiplayer acceptance is still pending.
+## What's new in 3.0.8 RC2
 
-## In-menu help update (November 10, 2026)
+- Adapts the room-creation hooks to the game's updated network library while retaining the official networking changes. Maximum expansion remains 16 players.
+- Adds searchable, bilingual release history at the bottom of **Display & Settings > Display & Keys**, covering 29 retained release records from 2.5.2 onward. Historical features are not a current feature list.
+- Makes the installer easier to find: a Chinese/English filename, the ShanYe icon and bilingual buttons. First installation and updating use the same entry.
+- Adds the missing tuning-preset name and JSON-path inputs, with format, value-range and 1 MB checks before saving. Import does not apply a preset to the vehicle.
+- Isolates native UI pointer targets while the mod menu is visible, addressing language-dialog clicks reaching map-selection buttons behind it.
 
-Every feature page now has **How to use** at the top. Read instructions for the current page or search all help in English or Chinese. Select a tuning item before opening help to focus its instructions. Use **Back to controls** or **Esc** to return to the previous page position.
+Revision: **20261114-rc2-menu-input**. The current revision passed local English/Chinese release-history display, version search/clear, same-language return position, language-dialog click-through and native-button recovery checks. The installer icon, bilingual labels, automatic path detection and running-game preview refusal were observed. The original Chinese language preference was restored. This is one-machine UI validation, not multiplayer acceptance.
 
-The guide includes **60 topic summaries and 142 tuning-catalogue entries**. It explains steps, parking requirements, host/client permissions and saved-progress effects. Unavailable entries are marked; this is not a claim of 202 verified features. The complete English guide is also included as `FEATURE-GUIDE.txt` in the ZIP and as a release attachment.
+The package includes the loader and matching offline Unity base libraries. Normal first-start interface generation still takes time. Full 16-player multiplayer acceptance remains pending.
 
-Existing RC4 users need to run **Install / Update** to receive this help update. The offline cache remains included. Gameplay logic, the multiplayer protocol, settings format, dependencies and installer are unchanged.
+## Feature instructions
 
-This candidate is revision **20261110-rc4-help1**. Build, reference, isolated help/layout and installation checks passed. It was installed on the project owner's machine with settings and save-file hashes preserved. **Actual in-game help rendering/input remains unverified.** Full 16-player acceptance is still pending.
+Every feature page has **How to use** at the top. Read the current page or search all help in English or Chinese. Select a tuning item before opening help to focus its instructions. Use **Back to controls** or **Esc** to return to the previous page position.
 
-## Offline-ready installer update (November 9, 2026)
-
-The recommended complete ZIP now includes the matching Unity base-library cache. This addresses first-start failures while downloading Unity libraries, followed by UnityEngine.CoreModule not found.
-
-Run **Install / Update again**, even if RC4 is already installed. The installer checks the package's declared Unity version, required offline modules, loader/runtime/plugin requirements and package hashes, and repairs missing or damaged distributed files. Previously saved loader configuration is retained. Custom cache/source settings that bypass the bundled archive are reported before installation rather than silently overwritten.
-
-No separate Unity repair archive is needed. Do not unpack the inner Unity ZIP. Normal first-start interop generation still takes time. This is not an offline multiplayer mode, and startup on the affected player's machine is still awaiting confirmation.
+The guide includes 60 topic summaries and 142 tuning-catalogue entries explaining steps, parking, host/client permissions and saved-data effects. These are help entries, not 202 independently validated features. An English `FEATURE-GUIDE.txt` and `RELEASE-HISTORY.txt` are included as release assets.
 
 ## Requirements
 
-- Windows x64 and Over the Hill build **26.10.30_426818b** (Steam build **26326013**).
+- Windows x64 and Over the Hill build **26.11.06_db90b37** (Steam build **26489201**).
 - This package includes the BepInEx x64 loader and required distribution files.
 - BepInEx is the supported loader for this release. Do not install two loaders together.
 
@@ -38,7 +36,7 @@ No separate Unity repair archive is needed. Do not unpack the inner Unity ZIP. N
 
 1. Exit the game.
 2. Extract the entire ZIP to a folder. Do not run the manager from inside the archive.
-3. Open **ShanYe-Manager.exe**. Keep the accompanying `程序文件` folder beside it; its name is required by the installer.
+3. Open **山野领航-安装更新卸载-ShanYe-Setup.exe** (the installer with the ShanYe icon). Keep the accompanying `程序文件` folder beside it; its name is required by the installer.
 4. Let the manager detect the game, or browse to the folder containing `over the hill.exe`.
 5. Click **Install / Update** and wait for completion, then start the game through Steam.
 

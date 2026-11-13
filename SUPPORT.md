@@ -12,3 +12,5 @@ For a crash or loading issue, attach BepInEx/LogOutput.log from the game folder 
 The 16-player configuration is experimental. A room label is not proof of actual capacity or successful synchronization. Please identify late-join order and which player could not interact.
 
 For help-panel layout problems, include the menu language, resolution, menu scale and screenshot. If an unavailable entry is marked in the guide, that label does not mean the feature was enabled or tested.
+
+For release-history or language-dialog input problems, also say which native game screen was behind the menu and whether you were using a keyboard/mouse or controller.

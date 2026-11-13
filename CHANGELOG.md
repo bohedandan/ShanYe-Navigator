@@ -1,3 +1,42 @@
+# ShanYe Navigator 3.0.8 RC2
+
+For Over the Hill **26.11.06_db90b37 / Steam build 26489201**, Windows x64, BepInEx only.
+Revision: **20261114-rc2-menu-input**. This is a prerelease.
+
+## Changes
+
+- Updated room-creation hooks for the new game network library. Kept the official networking library and the existing 8/16-player options; ordinary four-player mode remains available.
+- Added 29 searchable release-history entries in English and Chinese. Open Display & Settings > Display & Keys and scroll to the bottom.
+- Added a recognizable bilingual installer filename and ShanYe icon. Main buttons show Chinese and English.
+- Fixed the missing tuning-preset name/path inputs. Invalid files are rejected before saving; importing does not apply settings to the vehicle.
+- Added native UI pointer isolation while the mod menu is open after finding that language-dialog clicks could also select a map in the background.
+- Kept the matching offline Unity library cache, saved preferences and existing accessory presets.
+
+## Install or update
+
+Exit the game, extract the complete ZIP and run **山野领航-安装更新卸载-ShanYe-Setup.exe**. Keep the adjacent **程序文件** folder. Detect/browse to the folder containing `over the hill.exe`, choose **Install / Update**, and start through Steam. Existing users should update directly; do not uninstall first.
+
+Default keys: **Insert** for the menu, **End** to disable the mod, **Ctrl+F5** for the FPS optimizer. Saved bindings take precedence. Select **English / 中文** at the top of the menu. Do not use **Back up & delete** for an ordinary update: that option clears game progress.
+
+## Validation and limits
+
+The current revision passed local English/Chinese release-history display, version search/clear, same-language return position, language-dialog click-through and native-button recovery checks. The installer icon, bilingual labels, automatic path detection and running-game preview refusal were observed. The original Chinese language preference was restored. This is one-machine UI validation, not multiplayer acceptance.
+
+Local x64 build, native reference/target checks, production-code input/help fixtures, archive integrity and isolated installation/upgrade checks passed. Test doubles and synthetic directories do not establish multiplayer behavior. Real 4/8/16-player sessions, late joining, reconnection, cross-machine appearance/gathering/gear synchronization, and extended driving remain unverified in this task. No real multiplayer participant count was accepted.
+
+All players in an expanded room should use this package. The host selects capacity outside a room, then creates a new room. A client's setting cannot expand the host's room.
+
+Voice, text chat and whole-vehicle scaling remain removed. Accessory position, rotation and scaling remain available. Older releases are preserved for their supported game builds.
+
+## Credits and feedback
+
+Menu and integration: **Danjuan Erwang (蛋卷儿王)**. FPS optimizer: **Putao Ban Dasuan (葡萄拌大蒜)**. Real Nights and Lights: **SquidFromWish**. Hydraulics: **Jonathon**. OverTheHillUnlimited: **t04glovern / Nathan Glover**. ExtraGears reference/adaptation: **kaleLetendre**. Original licences and further notices are included; this is a binary-distribution project, not an open-source licence grant.
+
+Report bugs in this repository's Issues with the game/mod version, role, player count, steps and screenshot. For crashes, attach `BepInEx/LogOutput.log` after checking it for private names and local paths. Do not upload credentials or personal saves.
+
+
+---
+
 # In-menu help candidate - November 10, 2026
 
 ShanYe Navigator 3.0.7 RC4 - In-menu help update
