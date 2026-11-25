@@ -4,31 +4,27 @@ A community-made utility mod for **Over the Hill** (also written as **OverTheHil
 
 ## Download
 
-**[Download 3.0.8 RC2](https://github.com/bohedandan/ShanYe-Navigator/releases/tag/v3.0.8-rc2)** · **[Report a bug](https://github.com/bohedandan/ShanYe-Navigator/issues)**
+**3.0.9 RC1** is the Windows x64 prerelease for Over the Hill **26.11.19_CB94FA2**, Steam build **26790649**. The full ZIP includes the bilingual installer, BepInEx and the matching offline Unity libraries. [Download the full ZIP](https://github.com/bohedandan/ShanYe-Navigator/releases/download/v3.0.9-rc1/ShanYe-Navigator-3.0.9-RC1-Offline-BepInEx-x64.zip) · [Release notes and checksums](https://github.com/bohedandan/ShanYe-Navigator/releases/tag/v3.0.9-rc1)
 
-Choose `ShanYe-Navigator-3.0.8-RC2-Offline-BepInEx-x64.zip` from **Releases**, not GitHub's automatic source-code archives. This is a prerelease for game **26.11.06_db90b37 / Steam 26489201**. Use the older RC4 package only with its supported older game build.
+Running an older game build? Each previous release lists the build it supports. [All releases](https://github.com/bohedandan/ShanYe-Navigator/releases)
 
-## What's new in 3.0.8 RC2
+## What's new in 3.0.9 RC1
 
-- Adapts the room-creation hooks to the game's updated network library while retaining the official networking changes. Maximum expansion remains 16 players.
-- Adds searchable, bilingual release history at the bottom of **Display & Settings > Display & Keys**, covering 29 retained release records from 2.5.2 onward. Historical features are not a current feature list.
-- Makes the installer easier to find: a Chinese/English filename, the ShanYe icon and bilingual buttons. First installation and updating use the same entry.
-- Adds the missing tuning-preset name and JSON-path inputs, with format, value-range and 1 MB checks before saving. Import does not apply a preset to the vehicle.
-- Isolates native UI pointer targets while the mod menu is visible, addressing language-dialog clicks reaching map-selection buttons behind it.
+- The game sets the room limit. This release removes the expansion plugin, its controls and its shortcuts. Team gathering, gear approvals and accessory and paint sharing remain available in native rooms.
+- Inventory, currency and saving now use the updated game's profile data. In-game backups follow the active account once the game's save migration finishes. The installer lists both Steam account saves and legacy locations and asks you to choose when it finds more than one.
+- Hydraulics now reads the profile name from its new location.
 
-Revision: **20261114-rc2-menu-input**. The current revision passed local English/Chinese release-history display, version search/clear, same-language return position, language-dialog click-through and native-button recovery checks. The installer icon, bilingual labels, automatic path detection and running-game preview refusal were observed. The original Chinese language preference was restored. This is one-machine UI validation, not multiplayer acceptance.
-
-The package includes the loader and matching offline Unity base libraries. Normal first-start interface generation still takes time. Full 16-player multiplayer acceptance remains pending.
+Tested on one Windows PC by updating from 3.0.8 RC2, launching through Steam and entering Emerald Lake in single player. The vehicle, minimap and dashboard appeared. Both the team menu and the home shortcuts were checked for removal of the expansion controls. Extended driving, live hydraulics and cross-PC multiplayer still need player testing. The revision tested was `20261126-rc1-native-rooms`.
 
 ## Feature instructions
 
 Every feature page has **How to use** at the top. Read the current page or search all help in English or Chinese. Select a tuning item before opening help to focus its instructions. Use **Back to controls** or **Esc** to return to the previous page position.
 
-The guide includes 60 topic summaries and 142 tuning-catalogue entries explaining steps, parking, host/client permissions and saved-data effects. These are help entries, not 202 independently validated features. An English `FEATURE-GUIDE.txt` and `RELEASE-HISTORY.txt` are included as release assets.
+The English feature guide covers 58 topics and 142 tuning entries. The release history covers 30 versions and revisions. Both are downloadable on the release page and searchable in the mod in English or Chinese.
 
 ## Requirements
 
-- Windows x64 and Over the Hill build **26.11.06_db90b37** (Steam build **26489201**).
+- Windows x64 and Over the Hill build **26.11.19_CB94FA2** (Steam build **26790649**).
 - This package includes the BepInEx x64 loader and required distribution files.
 - BepInEx is the supported loader for this release. Do not install two loaders together.
 
@@ -51,7 +47,7 @@ The manager and in-game menu include English. Select **English / 中文** at the
 - Portable mechanic, saved-vehicle switching, owned accessories and installed community liveries.
 - Accessory stacking, layout editing, copies and saved presets.
 - Transmission tuning, manual neutral and related vehicle options.
-- Multiplayer tools, gathering requests and configurable expanded sessions.
+- Native-room team tools, gathering requests, gear approvals and accessory and paint sharing.
 - Weather/time controls, accessory lighting, night settings, hydraulics and performance options.
 - Configurable keyboard/controller bindings and saved preferences.
 
@@ -67,13 +63,9 @@ Availability depends on the current scene, ownership, host permissions and enabl
 
 Previously saved custom bindings take precedence. Other bindings can be reviewed in the display/settings section. Stop the vehicle before changing vehicles, accessories or tuning.
 
-## Expanded multiplayer
+## Multiplayer
 
-The configuration supports **8 or 16 players**, with a maximum of 16. Ordinary four-player mode remains available.
-
-All participants must use this candidate build. The host must enable expansion and select the limit **outside a room**, then create a new room. Changing client settings does not expand an existing host's room. Older expansion layouts are not compatible.
-
-The 16-player setting is not a claim that a full 16-player session has passed acceptance. Test joining, photo spots, mechanics, camps, gathering, transmission approvals, appearance synchronization, late joins, reconnects and map changes. Report the host's and client's versions and roles.
+Create and join rooms through the game's own multiplayer menu. Update the host and teammates to the same helper release to use gathering, gear approvals and appearance sharing. The updater removes the expansion plugin shipped with earlier versions. Use a native room for RC1 sessions.
 
 ## Uninstall and save backup
 
@@ -89,7 +81,7 @@ Open an issue with the mod version, game build, single-player/host/client role, 
 - OVH Render Optimizer: **Putao Ban Dasuan (葡萄拌大蒜)**.
 - Real Nights and Lights: **SquidFromWish**.
 - Hydraulics: **Jonathon**.
-- OverTheHillUnlimited: **t04glovern / Nathan Glover**.
+- Earlier releases used OverTheHillUnlimited by **t04glovern / Nathan Glover**.
 - ExtraGears reference/adaptation: **kaleLetendre**.
 - BepInEx, MinHook and other dependencies retain their original authorship and licenses.
 

@@ -9,7 +9,7 @@ Please open a GitHub issue and include:
 
 For a crash or loading issue, attach BepInEx/LogOutput.log from the game folder after reviewing it for private names and local paths. Do not post passwords, access tokens or personal save data.
 
-The 16-player configuration is experimental. A room label is not proof of actual capacity or successful synchronization. Please identify late-join order and which player could not interact.
+3.0.9 RC1 uses the game's native rooms. For team tools or synchronization issues, include the host's and affected player's helper versions, who joined later, and what each player saw. If reporting a save-folder detection problem, mention whether the game's save migration finished and how many locations the installer listed. Redact account IDs and personal paths from screenshots.
 
 For help-panel layout problems, include the menu language, resolution, menu scale and screenshot. If an unavailable entry is marked in the guide, that label does not mean the feature was enabled or tested.
 

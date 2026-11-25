@@ -1,3 +1,13 @@
+# ShanYe Navigator 3.0.9 RC1
+
+Windows x64 prerelease for Over the Hill **26.11.19_CB94FA2** (Steam build **26790649**). Revision `20261126-rc1-native-rooms`.
+
+- Removed room expansion and its menu shortcuts. The game now controls capacity. Team gathering, gear approvals and appearance sharing still use the existing team channel.
+- Updated inventory, currency and saving for the current game profile. Backups use the active account after the game's save migration. The installer can select from legacy and Steam account save folders.
+- Fixed a hydraulics compatibility issue caused by a change to where the game stores the profile name.
+
+A real upgrade from 3.0.8 RC2 reached Emerald Lake in single player. The vehicle, minimap and dashboard loaded. Both menu paths were checked for removal of expansion. All 10 files in the backup made by the game's migration matched the pre-launch copies. Extended driving, in-game hydraulics, manual backup and cross-machine multiplayer remain unverified in this revision. [Downloads and installation](https://github.com/bohedandan/ShanYe-Navigator/releases/tag/v3.0.9-rc1)
+
 # ShanYe Navigator 3.0.8 RC2
 
 For Over the Hill **26.11.06_db90b37 / Steam build 26489201**, Windows x64, BepInEx only.
